@@ -11,7 +11,7 @@ interface LayoutProps {
 
 const DefaultLayout = (props: LayoutProps) => {
   const description =
-    "Assemble, configure, and deploy autonomous AI Agents in your browser.";
+    "Autonomous AI Agents in your browser.";
   return (
     <div className="flex flex-col bg-gradient-to-b from-[#2B2B2B] to-[#1F1F1F]">
       <Head>
@@ -23,7 +23,7 @@ const DefaultLayout = (props: LayoutProps) => {
         />
         <meta
           property="og:description"
-          content="Assemble, configure, and deploy autonomous AI Agents in your browser."
+          content="Autonomous AI Agents in your browser."
         />
         <meta property="og:url" content="https://auto-agentgpt.com/" />
         <meta property="og:image:width" content="1280" />
